@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aswin\\source\\repos\\PharmacySupplyMicroService\\PharmacySupplyMicroService\\PharmacySupplyMicroService.csproj": {}
+    "C:\\PharmacySupplyMicroserviceForcloud\\PharmacySupplyMicroService\\PharmacySupplyMicroService\\PharmacySupplyMicroService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aswin\\source\\repos\\PharmacySupplyMicroService\\PharmacySupplyMicroService\\PharmacySupplyMicroService.csproj": {
+    "C:\\PharmacySupplyMicroserviceForcloud\\PharmacySupplyMicroService\\PharmacySupplyMicroService\\PharmacySupplyMicroService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aswin\\source\\repos\\PharmacySupplyMicroService\\PharmacySupplyMicroService\\PharmacySupplyMicroService.csproj",
+        "projectUniqueName": "C:\\PharmacySupplyMicroserviceForcloud\\PharmacySupplyMicroService\\PharmacySupplyMicroService\\PharmacySupplyMicroService.csproj",
         "projectName": "PharmacySupplyMicroService",
-        "projectPath": "C:\\Users\\aswin\\source\\repos\\PharmacySupplyMicroService\\PharmacySupplyMicroService\\PharmacySupplyMicroService.csproj",
-        "packagesPath": "C:\\Users\\aswin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aswin\\source\\repos\\PharmacySupplyMicroService\\PharmacySupplyMicroService\\obj\\",
+        "projectPath": "C:\\PharmacySupplyMicroserviceForcloud\\PharmacySupplyMicroService\\PharmacySupplyMicroService\\PharmacySupplyMicroService.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\PharmacySupplyMicroserviceForcloud\\PharmacySupplyMicroService\\PharmacySupplyMicroService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aswin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
