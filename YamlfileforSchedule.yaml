@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webapivaluesservice1-deployment
+  labels:
+    app: WebApiValuesService1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: WebApiValuesService1  
+  template:
+    metadata:
+      labels:
+        app: WebApiValuesService1
+    spec:
+      containers:
+      - name: webapivaluesservice1
+        image: myautherization.azurecr.io/autherizationcrr:latest
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+      - name: webapisvcsecret
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: webapivaluesservicesvc
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+    app: WebApiValuesService1
